@@ -12,11 +12,13 @@ tpa:
     delay: 3
     request-expired-time: 10
     cooldown: 10
+
 back:
   enable: true
   teleport:
     delay: 3
     cooldown: 10
+
 spawn:
   enable: true
   first-join: true
@@ -24,3 +26,4 @@ spawn:
     delay: 3
     cooldown: 10
   location:
+
