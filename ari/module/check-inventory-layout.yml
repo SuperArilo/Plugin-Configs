@@ -55,8 +55,8 @@ functionItems:
     material: COMPASS
     slot: [15]
     lore:
-      - "&c<world_name>"
-      - "&4x&7: &6<x> &4y&7: &6<y> &4z&7: &6<z>"
+      - "<world_name>"
+      - "&2x&7: &6<x> &2y&7: &6<y> &2z&7: &6<z>"
       - "&7点击传送到此处"
 
 shortcutBar: [45, 46, 47, 48, 49, 50, 51, 52, 53]
