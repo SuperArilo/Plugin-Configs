@@ -43,12 +43,21 @@ functionItems:
   experience:
     name: "&6经验值"
     type: PLAYER_EXPERIENCE
-    material: experience_bottle
+    material: EXPERIENCE_BOTTLE
     slot: [6]
     lore:
       - "&7已获得总经验值: &6<player_total_experience>"
       - "&7当前等级: &6<player_level>"
       - "&7下一级进度: &6<player_exp>"
+  location:
+    name: "&6当前所在世界"
+    type: LOCATION
+    material: COMPASS
+    slot: [15]
+    lore:
+      - "&c<world_name>"
+      - "&4x&7: &6<x> &4y&7: &6<y> &4z&7: &6<z>"
+      - "&7点击传送到此处"
 
 shortcutBar: [45, 46, 47, 48, 49, 50, 51, 52, 53]
 playerInventory: [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
