@@ -254,13 +254,11 @@ custom-death:
           - '&2<victim>&7被&2<killer>&7的魔法终结'
           - '&2<victim>&7在&2<killer>&7的咒术下失去了生命'
           - '&2<victim>&7中了&2<killer>&7的致命魔法，当场毙命'
-          - '&2<killer>&7吟诵的咒语夺走了&2<victim>&7的灵魂'
           - '&2<victim>&7没能抵御&2<killer>&7的奥术力量'
       public:
         - '&2<victim>&7被&2<killer>&7的魔法所杀'
         - '&2<victim>&7死于&2<killer>&7的术法'
         - '&2<victim>&7被魔法光芒贯穿了身体'
-        - '&2<killer>&7的咒术让&2<victim>&7倒下了'
         - '&2<victim>&7被一股魔力击毙'
 
     explosion:
