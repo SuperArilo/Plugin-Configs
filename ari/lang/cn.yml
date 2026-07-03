@@ -128,7 +128,8 @@ server:
         - "&f备注: <zako_list_item_remark>"
       unable-record: "&7可能原因：玩家尚未登录服务器"
     afk:
-      server-notice: "&e玩家 <player_name> 暂时离开了游戏，进入了 AFK 状态"
+      player-leave: "&f玩家 <player_name> &f暂时离开了游戏"
+      player-back: "&f玩家 &6<player_name> &f回到了游戏"
       break-hint: '&7(晃动视角解除 AFK 状态)'
       title: '&e⏳ 你现在进入了暂离状态'
       sub-title:
