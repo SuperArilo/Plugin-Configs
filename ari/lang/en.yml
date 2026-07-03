@@ -129,6 +129,14 @@ server:
         - "&e- &6<zako_list_item_name>"
         - "&fNote: <zako_list_item_remark>"
       unable-record: "&7Possible reason: player has never joined before"
+    afk:
+      player-leave: "&fPlayer &6<player_name> &ftemporarily &cleft &fthe game"
+      player-back: "&fPlayer &6<player_name> &ahas returned to &fthe game"
+      break-hint: '&7(Shake your view to leave AFK)'
+      title: '&e⏳ You are now AFK'
+      sub-title:
+        - '&aTake a good rest, are you having a meal?'
+        - '&aGo get some water, and don''t forget to come back~'
   boss-bar:
     player-attack: "<mob> &6<mob_current_health>&f / &3<mob_max_health>"
   maintenance:
