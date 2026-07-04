@@ -65,7 +65,9 @@ function:
     banned: '&a✔ Player &6<ban_player_name> &ahas been banned! &7Duration: &6<ban_total_time> &fReason: &3<ban_reason>'
     list-requesting: '&3Fetching data...'
     list-request-error: '&cFailed to fetch data – check console'
-    list-title: '&7Whitelist'
+    page-title:
+      whitelist: '&7Whitelist'
+      ban: '&7Ban List'
   enchant:
     not-exist: '&c✖ That enchantment type does not exist'
     can-not-apply-item: '&c✖ That enchantment cannot be applied to this item'
@@ -121,17 +123,23 @@ server:
       - "&fWorld: &8<player_world>"
       - "&fLocation: <player_location>"
     banned:
-      - ""
-      - ""
-      - "&4You have been banned from this server!"
-      - "&3Reason&f: <ban_reason>"
-      - "&3Time remaining&f: &6<ban_end_time>"
-      - ""
+      - ''
+      - ''
+      - '&4You have been banned from this server!'
+      - '&3Reason&f: <ban_reason>'
+      - '&3Time remaining&f: &6<ban_end_time>'
+      - ''
     zako:
       list-show:
-        - "&e- &6<zako_list_item_name>"
-        - "&fNote: <zako_list_item_remark>"
-      unable-record: "&7Possible reason: player has never joined before"
+        ban:
+          - '&e- &6<player_name>'
+          - '&fReason: &3<ban_reason>'
+          - '&fBan duration: &c<ban_total_time>'
+          - '&fUnban time: &e<ban_end_time>'
+        whitelist:
+          - '&e- &6<player_name>'
+          - '&fRemarks: <zako_list_item_remark>'
+      unable-record: '&7Possible reason: player has never logged into the server'
     afk:
       player-leave: "&fPlayer &6<player_name> &ftemporarily &cleft &fthe game"
       player-back: "&fPlayer &6<player_name> &ahas returned to &fthe game"

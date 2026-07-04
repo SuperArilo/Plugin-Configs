@@ -64,7 +64,9 @@ function:
     banned: '&a✔ 已将该玩家 &6<ban_player_name> &a进行封禁！&7封禁时长为 &6<ban_total_time> &f封禁原因：&3<ban_reason>'
     list-requesting: '&3查询数据中...'
     list-request-error: '&c数据查询失败，请检查控制台'
-    list-title: '&7白名单列表'
+    page-title:
+      whitelist: '&7白名单列表'
+      ban: '&7封禁列表'
   enchant:
     not-exist: '&c✖ 该附魔类型不存在'
     can-not-apply-item: '&c✖ 该类型的附魔无法作用在此物品上'
@@ -127,9 +129,15 @@ server:
       - ""
     zako:
       list-show:
-        - "&e- &6<zako_list_item_name>"
-        - "&f备注: <zako_list_item_remark>"
-      unable-record: "&7可能原因：玩家尚未登录服务器"
+        ban:
+          - '&e- &6<player_name>'
+          - '&f原因: &3<ban_reason>'
+          - '&f封禁时长: &c<ban_total_time>'
+          - '&f解封时间: &e<ban_end_time>'
+        whitelist:
+          - '&e- &6<player_name>'
+          - '&f备注: <zako_list_item_remark>'
+      unable-record: '&7可能原因：玩家尚未登录服务器'
     afk:
       player-leave: "&f玩家 &6<player_name> &f暂时&c离开了&f游戏"
       player-back: "&f玩家 &6<player_name> &a回到了&f游戏"
