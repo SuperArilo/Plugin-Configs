@@ -125,7 +125,6 @@ server:
       - "&3原因&f: <ban_reason>"
       - "&3剩余时间&f: &6<ban_end_time>"
       - ""
-      - ""
     zako:
       list-show:
         - "&e- &6<zako_list_item_name>"
