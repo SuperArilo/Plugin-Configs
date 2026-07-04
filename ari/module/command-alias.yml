@@ -67,3 +67,6 @@ infinitytotem:
 inv:
   enable: true
   usage: "/inv <player> 打开指定玩家的背包"
+afk:
+  enable: true
+  usage: "/afk <player> 让自己或者指定玩家进入 AFK 状态"
