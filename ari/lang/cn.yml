@@ -119,9 +119,13 @@ server:
       - "&f所在世界: &8<player_world>"
       - "&f当前位置: <player_location>"
     banned:
+      - ""
+      - ""
       - "&4你已经被此服务器封禁！"
       - "&3原因&f: <ban_reason>"
       - "&3剩余时间&f: &6<ban_end_time>"
+      - ""
+      - ""
     zako:
       list-show:
         - "&e- &6<zako_list_item_name>"
