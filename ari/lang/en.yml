@@ -120,10 +120,14 @@ server:
       - "&fNote: &6<zako_list_item_remark>"
       - "&fWorld: &8<player_world>"
       - "&fLocation: <player_location>"
-    baned:
+    banned:
+      - ""
+      - ""
       - "&4You have been banned from this server!"
       - "&3Reason&f: <ban_reason>"
       - "&3Time remaining&f: &6<ban_end_time>"
+      - ""
+      - ""
     zako:
       list-show:
         - "&e- &6<zako_list_item_name>"
