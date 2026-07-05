@@ -136,6 +136,7 @@ server:
           - '&f解封时间: &e<ban_end_time>'
         whitelist:
           - '&e- &6<player_name>'
+          - '&f操作员: &6<ban_operator>'
           - '&f备注: <zako_list_item_remark>'
       unable-record: '&7可能原因：玩家尚未登录服务器'
     afk:
