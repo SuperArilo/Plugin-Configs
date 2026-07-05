@@ -61,7 +61,7 @@ function:
     ban-remove-success: '&a✔ 黑名单移除成功'
     ban-remove-failure: '&c✖ 黑名单移除失败，不存在或者存在错误'
     had-banned: '&c✖ 添加失败，该玩家已经被封禁'
-    banned: '&a✔ 已将该玩家 &6<ban_player_name> &a进行封禁！&7封禁时长为 &6<ban_total_time> &f封禁原因：&3<ban_reason>'
+    banned: '&a✔ 已将该玩家 &6<player_name> &a进行封禁！&7封禁时长为 &6<ban_total_time> &f封禁原因：&3<ban_reason>'
     list-requesting: '&3查询数据中...'
     list-request-error: '&c数据查询失败，请检查控制台'
     page-title:
