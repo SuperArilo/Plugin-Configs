@@ -31,8 +31,8 @@ base:
       name-too-long: '&c名称过长'
     permission:
       permission-error: '&c权限节点不满足'
-    cost:
-      format-error: '&c不是有效的数字'
+    number:
+      format-error: '&c输入的不是有效的数字'
   save:
     done: '&a✔ 保存成功'
     ing: '&e⏳ 保存中...'
