@@ -2,6 +2,8 @@ base:
   command:
     disabled: "&c当前指令已经被禁用！"
     self-not-allowed: "&c当前指令不能作用于自己！"
+    execute-success: "&a操作成功"
+    execute-fail: "&c操作失败"
   permission:
     no-permission: '&4你当前没有权限来执行此命令'
   page-change:
