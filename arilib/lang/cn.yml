@@ -43,6 +43,7 @@ base:
     not-exist: '&c✖ 玩家不存在'
     hand-no-item: '&c当前手上并没有物品'
     unable-player: '&c该玩家离线或者不存在！'
+    fail-by-player-online: '&c玩家在线，无法执行该操作'
     data-changed: '&a你的数据发生更变，请重新登录服务器!'
 function:
   reload:
