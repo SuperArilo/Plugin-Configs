@@ -45,6 +45,7 @@ base:
     unable-player: '&c该玩家离线或者不存在！'
     fail-by-player-online: '&c玩家在线，无法执行该操作'
     data-changed: '&a你的数据发生更变，请重新登录服务器!'
+  require-pre-plugin: "&c缺少前置插件，无法运行"
 function:
   reload:
     doing: '&e重载插件中...'
