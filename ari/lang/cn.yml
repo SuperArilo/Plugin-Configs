@@ -78,6 +78,9 @@ function:
   infinitytotem:
     enable: '&a无限不死图腾使用已开启'
     disable: '&e无限不死图腾使用已关闭'
+  morph:
+    morph-now: '&c你已经在变形状态中了'
+    changed: '&a你已经成功变身为 &6<morph_entity>'
   unknown: '&c未知指令，请重新输入'
 server:
   time:
