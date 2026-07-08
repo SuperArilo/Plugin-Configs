@@ -79,8 +79,11 @@ function:
     enable: '&a无限不死图腾使用已开启'
     disable: '&e无限不死图腾使用已关闭'
   morph:
+    restore: "&a你解除了变形状态"
     morph-now: '&c你已经在变形状态中了'
     changed: '&a你已经成功变身为 &6<morph_entity>'
+    not-change: '&e当前的变身就是 &6<morph_entity> &e哦'
+    kill-entity: '&a恭喜你成功解锁变形实体 &6<entity_kill_by_player>'
   unknown: '&c未知指令，请重新输入'
 server:
   time:
