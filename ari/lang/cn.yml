@@ -84,6 +84,7 @@ function:
     changed: '&a你已经成功变身为 &6<morph_entity>'
     not-change: '&e当前的变身就是 &6<morph_entity> &e哦'
     kill-entity: '&a恭喜你成功解锁变形实体 &6<entity_kill_by_player>'
+    locked: "&c你尚未解锁当前实体类型"
   unknown: '&c未知指令，请重新输入'
 server:
   time:
