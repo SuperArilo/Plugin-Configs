@@ -1,3 +1,4 @@
+version: 1
 attack-bar:
   enable: false
   #最多给玩家显示的 bar 数量

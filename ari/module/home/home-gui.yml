@@ -1,3 +1,4 @@
+version: 1
 title: '%player_name%的家列表'
 row: 3
 mask:

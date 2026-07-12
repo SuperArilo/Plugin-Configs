@@ -1,3 +1,4 @@
+version: 1
 rtp:
   enable: true
   search-count: 10

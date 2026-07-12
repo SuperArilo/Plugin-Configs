@@ -1,3 +1,4 @@
+version: 1
 teleport:
   title:
     main: '&e请不要移动...'
