@@ -1,4 +1,4 @@
-version: 1
+version: 1.1
 base:
   command:
     disabled: "&c当前指令已经被禁用！"
@@ -38,7 +38,9 @@ base:
     done: '&a✔ 保存成功'
     ing: '&e⏳ 保存中...'
     error: '&c✖ 保存失败，请联系管理员'
-  task-occupied: '&6当前的任务已被其他人占用，请稍后重试'
+  task:
+    already-exits: '&e你当前有个任务已经在运行了'
+    occupied: '&6当前的任务已被其他人占用，请稍后重试'
   on-player:
     self: '&6TA自己'
     not-exist: '&c✖ 玩家不存在'
