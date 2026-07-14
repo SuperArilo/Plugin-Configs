@@ -99,6 +99,7 @@ server:
   message:
     about:
       - '服务器版本: &6<server_version>'
+      - '插件名称: &6<plugin_name>'
       - '运行插件版本: &6<plugin_build_version>'
       - '构建时间: &6<plugin_build_time>'
       - 'commit 时间: &6<plugin_commit_time>'
