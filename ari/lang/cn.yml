@@ -1,4 +1,4 @@
-version: 1
+version: 1.1
 teleport:
   title:
     main: '&e请不要移动...'
@@ -79,6 +79,9 @@ function:
   infinitytotem:
     enable: '&a无限不死图腾使用已开启'
     disable: '&e无限不死图腾使用已关闭'
+  vanish:
+    enable: '&a你已开启全局隐身模式'
+    disable: '&e你已经关闭全局隐身模式'
   unknown: '&c未知指令，请重新输入'
 server:
   time:
