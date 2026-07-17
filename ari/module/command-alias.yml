@@ -72,3 +72,6 @@ aliases:
   afk:
     enable: true
     usage: "/afk <player> 让自己或者指定玩家进入 AFK 状态"
+  vanish:
+    enable: true
+    usage: "/vanish 让自己进入全局隐身状态"
