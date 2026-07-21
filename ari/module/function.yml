@@ -1,4 +1,4 @@
-version: 1.1
+version: 1.2
 rtp:
   enable: false
   search-count: 10
@@ -28,3 +28,9 @@ spawn:
     cooldown: 10
   location:
 
+vanish:
+  enable: false
+  fly-permission-nodes:
+    - essentials.fly
+    - cmi.command.fly
+    - domfly.use
