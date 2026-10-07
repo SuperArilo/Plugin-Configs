@@ -34,3 +34,5 @@ vanish:
     - essentials.fly
     - cmi.command.fly
     - domfly.use
+    #广播假消息
+  fake-message: true
