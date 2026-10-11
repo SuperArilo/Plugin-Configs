@@ -47,7 +47,7 @@ aliases:
     usage: '/itemname <名称> 对当前手持物品进行名称修改'
   itemlore:
     enable: true
-    usage: '/itemlore <add | remove> <content> 对当前手持物品的lore进行添加和修改'
+    usage: '/itemlore <add | remove> ... add后接要添加的内容，remove后接要删除的行号（可多个，按Tab查看）'
   itemshow:
     enable: true
     usage: '/itemshow 对当前主手手持物品进行展示在聊天窗'
