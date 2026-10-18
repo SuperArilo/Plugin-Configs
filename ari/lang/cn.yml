@@ -84,6 +84,12 @@ function:
     disable: '&e你已经关闭全局隐身模式'
   gamemode:
     changed: '&a你的游戏模式已切换为 &6<player_game_mode>'
+  weather:
+    changed: '&a天气已设置为 &6<world_weather>'
+    type:
+      clear: '晴天'
+      rain: '下雨'
+      thunder: '雷暴'
   unknown: '&c未知指令，请重新输入'
 server:
   time:
