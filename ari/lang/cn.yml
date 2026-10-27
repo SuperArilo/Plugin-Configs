@@ -1,4 +1,4 @@
-version: 1.1.1
+version: 1.1.2
 teleport:
   title:
     main: '&e请不要移动...'
@@ -128,6 +128,7 @@ server:
   player:
     info:
       - "&f玩家 &6<player_name> &f的信息"
+      - "&f被封禁次数: &c<zako_ban_count>"
       - "&f第一次登录服务器时间: &6<first_login_server_time>"
       - "&f上次登录服务器的时间: &6<last_login_server_time>"
       - "&f累计在线时间: &6<total_online_time_on_server>"
